@@ -6,8 +6,8 @@ public class ex1 {
         String[] words = {"Это", "Шашлык", "на", "шампуре"};
         String result = "";
         for (String word : words) {
-            result += word+" - ";
+            result += word+"-";
         }
-        System.out.println(result);
+        System.out.println(result.substring(0,result.length()-1));
     }
 }
